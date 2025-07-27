@@ -99,7 +99,65 @@ body {
     margin-bottom: 20px;
     filter: brightness(1.2);
 }
+        .date-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            gap: 20px;
+        }
 
+        .date-line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #ffb366, transparent);
+            max-width: 80px;
+        }
+
+        .left-line {
+            background: linear-gradient(90deg, transparent, #ffb366);
+        }
+
+        .right-line {
+            background: linear-gradient(90deg, #ffb366, transparent);
+        }
+
+        .date-content {
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            
+        }
+
+        .day-month {
+            font-family: 'Playfair Display', serif;
+            
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+
+        .date-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 8px;
+            display: inline-block;
+            position: relative;
+            top: 2px;
+            
+        }
+
+        .year-text {
+            font-family: 'Playfair Display', serif;
+            color: #ffffff;
+            font-size: 3rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            
+        }
 .university-name {
     font-size: 1.2rem;
     font-weight: 300;
@@ -114,7 +172,7 @@ body {
 
 .graduation-title {
     font-family: 'SVN-Poppins';
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     color: #ffb366;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -122,7 +180,7 @@ body {
     background: linear-gradient(45deg, #f3eeab, #d1a64b, #acb3ac);
     
     background-size: 400% 400%;
-    animation: shimmer 3s ease-in-out infinite, pulse 2s ease-in-out infinite;
+    animation: pulse 2s ease-in-out infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -223,9 +281,9 @@ body {
 
 .degree-info {
     font-size: 1.6rem;
+    font-style: italic;
     font-family: 'SVN-Poppins';
-    color: #e0f2f2;
-    margin-bottom: 30px;
+    color: #ffb366;
     font-weight: 300;
 }
 
@@ -286,7 +344,7 @@ body {
 }
 
 .event-title h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'SVN-Poppins';
     font-size: 2rem;
     font-weight: 600;
     color: #ffb366;
@@ -336,7 +394,7 @@ body {
 }
 
 .section-content {
-    margin-left: 47px;
+    text-align: left;
     color: #e0f2f2;
     line-height: 1.6;
 }
@@ -349,7 +407,7 @@ body {
     margin-bottom: 5px;
 }
 .info-main2{
-    font-family: 'Inter', sans-serif;
+    font-family: 'SVN-Poppins';
     font-size: 1.2rem;
     font-weight: 400;
     color: #e0f2f2;
@@ -618,7 +676,29 @@ body {
             .ueh-logo {
                 width: 100px;
             }
+            .date-header {
+                gap: 15px;
+                margin-bottom: 25px;
+            }
 
+            .date-line {
+                max-width: 60px;
+            }
+
+            .day-month {
+                font-size: 1.25rem;
+                letter-spacing: 1.5px;
+            }
+
+            .date-number {
+                font-size: 2.5rem;
+                margin: 0 6px;
+            }
+
+            .year-text {
+                font-size: 2.5rem;
+                letter-spacing: 1.5px;
+            }
             .event-details {
                 padding: 30px 25px;
                 margin: 25px 0;
@@ -692,7 +772,29 @@ body {
                 width: 90px;
                 margin-bottom: 15px;
             }
+            .date-header {
+                gap: 12px;
+                margin-bottom: 20px;
+            }
 
+            .date-line {
+                max-width: 50px;
+            }
+
+            .day-month {
+                font-size: 1rem;
+                letter-spacing: 1.2px;
+            }
+
+            .date-number {
+                font-size: 1.6rem;
+                margin: 0 5px;
+            }
+
+            .year-text {
+                font-size: 2.25rem;
+                letter-spacing: 1.2px;
+            }
             .event-details {
                 padding: 25px 20px;
                 border-radius: 20px;
@@ -773,7 +875,29 @@ body {
             .ueh-logo {
                 width: 80px;
             }
+            .date-header {
+                gap: 10px;
+                margin-bottom: 18px;
+            }
 
+            .date-line {
+                max-width: 40px;
+            }
+
+            .day-month {
+                font-size: 0.8rem;
+                letter-spacing: 1px;
+            }
+
+            .date-number {
+                font-size: 1.4rem;
+                margin: 0 4px;
+            }
+
+            .year-text {
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
             .event-details {
                 padding: 20px 15px;
                 margin: 20px 0;
@@ -841,7 +965,29 @@ body {
             .graduation-title {
                 font-size: 1.6rem;
             }
+            .date-header {
+                gap: 8px;
+                margin-bottom: 15px;
+            }
 
+            .date-line {
+                max-width: 30px;
+            }
+
+            .day-month {
+                font-size: 0.75rem;
+                letter-spacing: 0.8px;
+            }
+
+            .date-number {
+                font-size: 1.3rem;
+                margin: 0 3px;
+            }
+
+            .year-text {
+                font-size: 1.75rem;
+                letter-spacing: 0.8px;
+            }
             .year {
                 font-size: 1.4rem;
             }
