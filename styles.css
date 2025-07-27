@@ -386,16 +386,17 @@ body {
 
 .section-label {
     font-family: 'SVN-Poppins';
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    color: #ffb366;
-   
+    color: #ffffff;
+    text-align: left;
     letter-spacing: 1px;
 }
 
 .section-content {
     text-align: left;
-    color: #e0f2f2;
+    font-family: 'SVN-Poppins';
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -416,6 +417,9 @@ body {
 
 
 .parking-info {
+    font-family: 'SVN-Poppins';
+    font-size: 1.2rem;
+    font-style: italic;
     justify-content: left;
     align-items: left;
 }
@@ -505,8 +509,9 @@ body {
 .footer {
     margin-top: 30px;
 }
-
+ 
 .tagline {
+    font-family: 'SVN-Poppins';
     font-size: 1rem;
     color: #e0f2f2;
     font-style: italic;
@@ -709,7 +714,7 @@ body {
             }
 
             .section-label {
-                font-size: 1.3rem;
+                font-size: 1.1rem;
             }
 
             .info-main {
@@ -805,7 +810,7 @@ body {
             }
 
             .section-label {
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
 
             .info-main {
@@ -918,7 +923,7 @@ body {
             }
 
             .section-label {
-                font-size: 1.1rem;
+                font-size: 0.9rem;
                 line-height: 1.2;
             }
 
@@ -1010,7 +1015,7 @@ body {
             }
 
             .section-label {
-                font-size: 1rem;
+                font-size: 0.8rem;
             }
 
             .info-main {
